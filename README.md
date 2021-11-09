@@ -1,5 +1,9 @@
 # Apollo Optimizer in Tensorflow 2.x
 
+Unofficial implementation of https://arxiv.org/abs/2009.13586
+
+Official implementation: https://github.com/XuezheMax/apollo
+
 ### Notes:
 
 - Warmup is important with Apollo optimizer, so be sure to pass in a learning rate schedule vs. a constant learning 
